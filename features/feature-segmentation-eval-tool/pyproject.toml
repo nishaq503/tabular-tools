@@ -10,7 +10,7 @@ readme = "README.md"
 packages = [{include = "polus", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<4.0"
 filepattern = "^2.0.1"
 opencv_python = "^4.5.1.48"
 scikit-learn="^1.4.0"

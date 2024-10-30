@@ -11,7 +11,7 @@ readme = "README.md"
 packages = [{include = "polus", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<4.0"
 filepattern = "^2.0.0"
 typer = "^0.7.0"
 nyxus = ">=0.7,<0.8"
